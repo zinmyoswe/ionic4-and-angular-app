@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-   text = "မမိုး ေက်ာက္မ်က္ရတနာေရာင္း၀ယ္ေရး";
-  
-   onChangeText(){
-     this.text = 'Welcome MaMoe Gems&Jewellery Shop';
-   }
-
+ 
 }
