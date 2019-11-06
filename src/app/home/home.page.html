@@ -1,3 +1,8 @@
+<style>
+  .sasa{
+    width: 200rem;
+  }
+</style>
 <ion-header>
   <ion-toolbar color="dark">
     <ion-title>
@@ -50,15 +55,56 @@
   </ion-item>
   <!-- 0 end -->
   <ion-card>
+      <ion-thumbnail>
+          <img src="https://spgems-myanmar.com/wp-content/uploads/2015/09/SP-Gems-Logo.png">
+        </ion-thumbnail>
+        
+        <br>
+        
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://i0.wp.com/spgems-myanmar.com/wp-content/uploads/2019/03/9.png?zoom=3.5&fit=600%2C600&ssl=1">
+          </ion-thumbnail>
+          <ion-label>Sapphire Diamond Necklace, Bangle & Ring<br>
+          <p style="font-size:12px">Myanmar Mogok Natural Sapphire</p>
+          </ion-label>
+        </ion-item>
+        <!-- ion-item end -->
+        
+        <ion-item>
+            <ion-thumbnail slot="start">
+              <img src="https://i1.wp.com/spgems-myanmar.com/wp-content/uploads/2019/03/10.png?zoom=3.5&fit=600%2C600&ssl=1">
+            </ion-thumbnail>
+            <ion-label>Spinel Diamond Necklace, Earrings, Bracelet & Ring<br>
+            <p style="font-size:12px">Myanmar Mogok Natural Spinel</p>
+            </ion-label>
+          </ion-item>
+          <!-- ion-item end -->
+
+          <ion-item>
+              <ion-thumbnail slot="start">
+                <img src="https://spgems-myanmar.com/wp-content/uploads/2019/03/8.png">
+              </ion-thumbnail>
+              <ion-label>Danburite Yellow Diamond Necklace, Earrings, Bangle & Ring<br>
+              <p style="font-size:12px">Myanmar Mogok Natural Danburite</p>
+              </ion-label>
+            </ion-item>
+            <!-- ion-item end -->
+  </ion-card>
+  <!-- card 2 start -->
+  <ion-card>
     <ion-card-header>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title>Card Title</ion-card-title>
+        
+        <img src="https://spgems-myanmar.com/wp-content/uploads/2019/03/7.png" class="sasa">
+      <ion-card-subtitle>Myanmar Mogok Natural Sapphire</ion-card-subtitle>
+      <ion-card-title>Sapphire Diamond Necklace, Bangle, Earrings & Ring</ion-card-title>
     </ion-card-header>
   
     <ion-card-content>
       Keep close to Nature's heart... and break clear away, once in awhile,
       and climb a mountain or spend a week in the woods. Wash your spirit clean.
     </ion-card-content>
+    <ion-button (click)="cart()">Cart</ion-button>
   </ion-card>
   
   <ion-card>
